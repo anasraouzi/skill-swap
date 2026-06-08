@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+frontEnd/node_modules/
+
+# Build output
+frontEnd/dist/
+
+# Laravel backend (vendor + secrets handled by backEnd/.gitignore)
+backEnd/vendor/
+backEnd/.env
+backEnd/storage/*.key
+backEnd/public/storage
+backEnd/public/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
